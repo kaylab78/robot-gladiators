@@ -109,6 +109,9 @@ var endGame = function() {
     }
 }
 
+// start the game when the page loads
+startGame();
+
 //ask player if they'd like to play again
 var playAgainConfirm = window.confirm("Would you like to play again?");
 
@@ -118,6 +121,3 @@ if (playAgainConfirm) {
 } else {
     window.alert("Thank you for playing Robot Gladiators! Come back soon!");
 }
-
-// start the game when the page loads
-startGame();
